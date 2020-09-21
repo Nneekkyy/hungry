@@ -1,0 +1,6 @@
+header {
+width: 1440px;
+height: 800px;
+background-image: url(../images/headerbg.svg);
+background-size: contain;
+}
