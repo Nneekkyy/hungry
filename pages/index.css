@@ -2,6 +2,4 @@
 @import url(../fonts/fonts.css);
 @import url(../blocks/page.css);
 @import url(../blocks/header.css);
-@import url(../blocks/header__menu.css);
-@import url(../blocks/header__img.css);
-@import url(../blocks/header__menu_link.css);
+@import url(../blocks/rectangle.css);

@@ -1,0 +1,9 @@
+.rectangle {
+  width: 60px;
+  height: 5px;
+  background-color: #E8C300;
+  border-radius: 50px;
+}
+.rectangle_header {
+  margin: 0 auto;
+}

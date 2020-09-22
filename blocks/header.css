@@ -1,6 +1,88 @@
-header {
+.header {
 width: 1440px;
 height: 800px;
 background-image: url(../images/headerbg.svg);
 background-size: contain;
+position: relative;
+}
+.header__menu {
+width: 1280px;
+margin: 0 80px;
+padding-top: 25px;
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+.header__menu_link {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 18px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.header__opening-hours {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 12px;
+  color: #FFFFFF;
+  transform: rotate(-90deg) translateX(-50%);
+  position: absolute;
+  left: 83px;
+  top: 50%;
+  margin-top: 50px;
+  transform-origin: left top 0;
+}
+.header__subtitle {
+  font-family: "Open Sans", Arial,cursive;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-top: 151px;
+  text-align: center;
+  letter-spacing: 0.5em;
+}
+.header__title {
+  position: relative;
+  font-family: "Helvetica", Arial,cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 96px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-top: 14px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+.header__buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 440px;
+  height: 60px;
+  margin: 0 auto;
+  margin-top: 31px;
+}
+.header__button {
+  width: 200px;
+  height: 60px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 20px;
+  color: #FFFFFF;
+  border-radius: 5px;
+}
+.button_left {
+  background-color: #E8C300;
+}
+.button_right {
+  opacity: 0.7;
 }
