@@ -1,0 +1,15 @@
+.top-plate {
+  position: absolute;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 100px;
+  letter-spacing: 0.5em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-align: center;
+  width: 1440px;
+  height: 100px;
+  margin: 0 auto;
+}

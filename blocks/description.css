@@ -1,0 +1,53 @@
+.description {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.description__text {
+  width: 600px;
+  text-align: center;
+}
+.description__image {
+  width: 475px;
+  width: 475px;
+  margin-left: 80px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  border-radius: 5px;
+}
+.description__title {
+  font-family: "Helvetica", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 48px;
+  text-transform: uppercase;
+  color: #000000;
+  margin: 0 auto;
+}
+.description__subtitle {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
+  color: #000000;
+}
+.description__paragraph {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: #000000;
+}
+.title_color_white {
+  color: rgba(255, 255, 255, 0.9);
+}
+.subtitle_color_white {
+  color: rgba(255, 255, 255, 0.9);
+}
+.paragraph_color_white {
+  color: rgba(255, 255, 255, 0.9);
+}

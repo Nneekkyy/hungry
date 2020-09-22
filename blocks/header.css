@@ -1,7 +1,7 @@
 .header {
 width: 1440px;
 height: 800px;
-background-image: url(../images/headerbg.svg);
+background-image: url(../images/headerbg.png);
 background-size: contain;
 position: relative;
 }
@@ -80,9 +80,49 @@ justify-content: space-around;
   color: #FFFFFF;
   border-radius: 5px;
 }
-.button_left {
+.header__button_left {
   background-color: #E8C300;
 }
-.button_right {
-  opacity: 0.7;
+.header__button_right {
+  background: transparent;
+}
+.header__social {
+  height: 220px;
+  width: 60px;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-left: 0px;
+  position: absolute;
+  right: 79px;
+  top: 340px;
+}
+.header__social-image {
+  width: 60px;
+  height: 58px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  margin-bottom: 20px;
+}
+/*необходимо переписать значение nth-child при добавлении иконки соцсети*/
+.header__social-image:nth-child(3n+1) {
+  background-image: url(../images/fb.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.header__social-image:nth-child(3n+2) {
+  background-image: url(../images/tw.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.header__social-image:nth-child(3n+3) {
+  background-image: url(../images/inst.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.header__social-image:last-of-type {
+  margin-bottom: 0px;
 }

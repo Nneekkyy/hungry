@@ -6,7 +6,7 @@
   <link rel="stylesheet" href="./pages/index.css">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
   <link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet">
-  <title>Hungry people</title>
+  <title>Restaurant Template</title>
 </head>
 <body>
   <div class="page">
@@ -17,7 +17,7 @@
         <a class="header__menu_link" href="#" target="_blank">ABOUT</a>
         <a class="header__menu_link" href="#" target="_blank">TEAM</a>
         <a class="header__menu_link" href="#" target="_blank">BOOKING</a>
-        <img class="header__img" src="./images/steeringw.svg" alt="Иконка штурвала в меню">
+        <img class="header__img rotation" src="./images/steeringw.svg" alt="Иконка штурвала в меню">
         <a class="header__menu_link" href="#" target="_blank">MENU</a>
         <a class="header__menu_link" href="#" target="_blank">GALERIE</a>
         <a class="header__menu_link" href="#" target="_blank">EVENTS</a>
@@ -27,12 +27,76 @@
       <h1 class="header__title">HUNGRY PEOPLE</h1>
       <div class="rectangle rectangle_header"></div>
       <form class="header__buttons" action="index.html" method="post">
-        <button class="header__button button_left" type="button" name="button">BOOK TABLE</button>
-        <button class="header__button button_right" type="button" name="button"></button>
+        <button class="header__button header__button_left" type="button" name="button">BOOK TABLE</button>
+        <button class="header__button header__button_right" type="button" name="button">EXPLORE</button>
       </form>
+      <ul class="header__social">
+        <li class="header__social-image"></li>
+        <li class="header__social-image"></li>
+        <li class="header__social-image"></li>
+      </ul>
     </header>
     <main class="content">
+      <section class="about">
+        <div class="description">
+          <div class="description__text">
+            <h3 class="description__title">about us</h3>
+            <div class="rectangle rectangle_about"></div>
+            <h4 class="description__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</h4>
+            <p class="description__paragraph">Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.</p>
+          </div>
+            <!--Здесь и везде, где картинка имеет тень, она меньше и выглядит не как по брифу,
+              из-зи того, что тень входит в размеры 475x475 - надо ли обрезать и делать тень через box-shadow?--->
+            <img class="description__image" src="./images/about.png" alt="Тлеющие угли на фоне барной стойки">
+        </div>
+      </section>
+      <section class="master-chief">
+        <h4 class="top-plate">our team</h4>
+        <div class="description description_text_white">
+          <img class="description__image master-chief__image" src="./images/mc.png" alt="Кондитер">
+          <div class="description__text">
+            <h3 class="description__title title_color_white">master chef</h3>
+            <div class="rectangle rectangle_description"></div>
+            <h4 class="description__subtitle subtitle_color_white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</h4>
+            <p class="description__paragraph paragraph_color_white">Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.</p>
+          </div>
+        </div>
+      </section>
+      <section class="book-a-table">
+        <div class="description">
+          <div class="description__text">
+            <h3 class="description__title book-a-table__title">book a table</h3>
+            <div class="rectangle rectangle_description"></div>
+            <div class="book-a-table__fields">
+                <input class="book-a-table__field" type="text" name="name" placeholder="Name" required>
+                <input class="book-a-table__field" type="text" name="email" placeholder="Email" required>
+                <input class="book-a-table__field" type="text" name="phone" placeholder="Phone" required>
+                <select required class="book-a-table__field field_select">
+                  <option value="" style="display:none">People</option>
+                  <option value="1" style="color:black">1 person</option>
+                  <option value="2" style="color:black">2 persons</option>
+                  <option value="3" style="color:black">3 persons</option>
+                  <option value="4" style="color:black">4 persons</option>
+              </select>
+                <input class="book-a-table__field" type="text" name="date" placeholder="Date (mm/dd)" required>
+              <select required class="book-a-table__field field_select">
+                  <option class="select" option value="" disabled selected>Time</option>
+                  <option value="1" style="color:black">8 PM</option>
+                  <option value="2" style="color:black">9 PM</option>
+                  <option value="3" style="color:black">10 PM</option>
+                  <option value="4" style="color:black">11 PM (Sat-Sun)</option>
+                  <option value="4" style="color:black">12 PM (Sat-Sun)</option>
+                  <option value="4" style="color:black">1 AM (Sat-Sun)</option>
+                  <option value="4" style="color:black">2 AM (Sat-Sun)</option>
+                  <option value="4" style="color:black">3 AM (Sat-Sun)</option>
+              </select>
+              <input class="book-a-table__button" type="submit" value="book now">
+            </div>
 
+          </div>
+            <img class="description__image" src="./images/btclock.png" alt="Несколько часов">
+        </div>
+      </section>
     </main>
     <footer class="footer">
 
