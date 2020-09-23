@@ -1,0 +1,39 @@
+.events {
+  background-image: url(../images/private.png);
+  width: 1440px;
+  min-height: 675px;
+  background-repeat: no-repeat;
+}
+.events__cards {
+  margin: 0px 205px 100px 205px;
+  padding-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0px;
+}
+.events__card {
+  position: relative;
+  width: 475px;
+  height: 475px;
+  list-style-type: none;
+  font-family: "Helvetica", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 12px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  transform: rotate(90deg);
+  background-color: black;
+  text-indent: 20px;
+}
+.events__cards_left {
+  background-position: 0px 50px;
+  background-image: url(../images/weddings2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.events__cards_right {
+  background-image: url(../images/corp.png);
+  background-size: contain;
+}

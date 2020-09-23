@@ -1,3 +1,57 @@
 .delicious-menu {
   margin-top: 100px;
+  margin-bottom: 100px;
+}
+.catalog_food {
+  width: 840px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  margin-top: 26px;
+}
+.catalog_food-type {
+  width: 120px;
+  text-align: center;
+  border-right: 1px solid rgba(51, 51, 51, 0.2);
+  margin: 0 auto;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 50px;
+  color: #333333;
+  text-transform: uppercase;
+}
+.delicious-menu__list {
+  width: 1280px;
+  margin: 0 auto;
+  height: 432px;
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: space-around;
+}
+.list_food-name {
+  font-family: "Helvetica", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 18px;
+  color: #333333;
+  width: 363px;
+  height: 66px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.list_food-description {
+  font-family: Open Sans, Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  color: gray;
+}
+.list_food-name:nth-child(7n+7){
+  height: 36px;
 }

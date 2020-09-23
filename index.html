@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
   <link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet">
   <title>Restaurant Template</title>
 </head>
+
 <body>
   <div class="page">
     <header class="header">
@@ -42,12 +44,16 @@
           <div class="description__text">
             <h3 class="description__title">about us</h3>
             <div class="rectangle rectangle_about"></div>
-            <h4 class="description__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</h4>
-            <p class="description__paragraph">Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.</p>
+            <h4 class="description__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit
+              maximus, molestie est a, tempor magna.</h4>
+            <p class="description__paragraph">Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere.
+              Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a
+              sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper
+              laoreet.</p>
           </div>
-            <!--Здесь и везде, где картинка имеет тень, она меньше и выглядит не как по брифу,
+          <!--Здесь и везде, где картинка имеет тень, она меньше и выглядит не как по брифу,
               из-зи того, что тень входит в размеры 475x475 - надо ли обрезать и делать тень через box-shadow?--->
-            <img class="description__image" src="./images/about.png" alt="Тлеющие угли на фоне барной стойки">
+          <img class="description__image" src="./images/about.png" alt="Тлеющие угли на фоне барной стойки">
         </div>
       </section>
       <section class="master-chief">
@@ -57,8 +63,12 @@
           <div class="description__text">
             <h3 class="description__title title_color_white">master chef</h3>
             <div class="rectangle rectangle_description"></div>
-            <h4 class="description__subtitle subtitle_color_white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</h4>
-            <p class="description__paragraph paragraph_color_white">Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.</p>
+            <h4 class="description__subtitle subtitle_color_white">Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit. Duis at velit maximus, molestie est a, tempor magna.</h4>
+            <p class="description__paragraph paragraph_color_white">Integer ullamcorper neque eu purus euismod, ac
+              faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio
+              vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla
+              facilisis semper laoreet.</p>
           </div>
         </div>
       </section>
@@ -68,35 +78,36 @@
             <h3 class="description__title book-a-table__title">book a table</h3>
             <div class="rectangle rectangle_description"></div>
             <div class="book-a-table__fields">
-                <input class="book-a-table__field" type="text" name="name" placeholder="Name" required>
-                <input class="book-a-table__field" type="text" name="email" placeholder="Email" required>
-                <input class="book-a-table__field" type="text" name="phone" placeholder="Phone" required>
-                <select required class="book-a-table__field field_select">
-                  <option value="" style="display:none">People</option>
-                  <option value="1" style="color:black">1 person</option>
-                  <option value="2" style="color:black">2 persons</option>
-                  <option value="3" style="color:black">3 persons</option>
-                  <option value="4" style="color:black">4 persons</option>
-              </select>
-                <input class="book-a-table__field" type="text" name="date" placeholder="Date (mm/dd)" required>
+              <input class="book-a-table__field" type="text" name="name" placeholder="Name" required>
+              <input class="book-a-table__field" type="text" name="email" placeholder="Email" required>
+              <input class="book-a-table__field" type="text" name="phone" placeholder="Phone" required>
               <select required class="book-a-table__field field_select">
-                  <option class="select" option value="" disabled selected>Time</option>
-                  <option value="1" style="color:black">8 PM</option>
-                  <option value="2" style="color:black">9 PM</option>
-                  <option value="3" style="color:black">10 PM</option>
-                  <option value="4" style="color:black">11 PM (Sat-Sun)</option>
-                  <option value="4" style="color:black">12 PM (Sat-Sun)</option>
-                  <option value="4" style="color:black">1 AM (Sat-Sun)</option>
-                  <option value="4" style="color:black">2 AM (Sat-Sun)</option>
-                  <option value="4" style="color:black">3 AM (Sat-Sun)</option>
+                <option value="" style="display:none">People</option>
+                <option value="1" style="color:black">1 person</option>
+                <option value="2" style="color:black">2 persons</option>
+                <option value="3" style="color:black">3 persons</option>
+                <option value="4" style="color:black">4 persons</option>
+              </select>
+              <input class="book-a-table__field" type="text" name="date" placeholder="Date (mm/dd)" required>
+              <select required class="book-a-table__field field_select">
+                <option class="select" option value="" disabled selected>Time</option>
+                <option value="1" style="color:black">8 PM</option>
+                <option value="2" style="color:black">9 PM</option>
+                <option value="3" style="color:black">10 PM</option>
+                <option value="4" style="color:black">11 PM (Sat-Sun)</option>
+                <option value="4" style="color:black">12 PM (Sat-Sun)</option>
+                <option value="4" style="color:black">1 AM (Sat-Sun)</option>
+                <option value="4" style="color:black">2 AM (Sat-Sun)</option>
+                <option value="4" style="color:black">3 AM (Sat-Sun)</option>
               </select>
               <input class="book-a-table__button" type="submit" value="book now">
             </div>
 
           </div>
-            <img class="description__image book-a-table_image" src="./images/btclock.png" alt="Несколько часов">
+          <img class="description__image book-a-table_image" src="./images/btclock.png" alt="Несколько часов">
         </div>
-        <div class="book-a-table__text">Mon - Fri: 8PM - 10PM, Sat - Sun: 8PM - 3AM, Phone: +40 729 131 637/+40 726 458 782</div>
+        <div class="book-a-table__text">Mon - Fri: 8PM - 10PM, Sat - Sun: 8PM - 3AM, Phone: +40 729 131 637/+40 726 458
+          782</div>
       </section>
       <section class="pancakes">
         <h4 class="top-plate"> specialties</h4>
@@ -105,8 +116,12 @@
           <div class="description__text">
             <h3 class="description__title title_color_white">chocolate pancakes</h3>
             <div class="rectangle rectangle_pancakes"></div>
-            <h4 class="description__subtitle subtitle_color_white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</h4>
-            <p class="description__paragraph paragraph_color_white">Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.</p>
+            <h4 class="description__subtitle subtitle_color_white">Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit. Duis at velit maximus, molestie est a, tempor magna.</h4>
+            <p class="description__paragraph paragraph_color_white">Integer ullamcorper neque eu purus euismod, ac
+              faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio
+              vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla
+              facilisis semper laoreet.</p>
           </div>
         </div>
       </section>
@@ -115,12 +130,77 @@
           <div class="description__text">
             <h3 class="description__title">delicious menu</h3>
             <div class="rectangle rectangle_pancakes"></div>
-            <h4 class="description__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</h4>
-          </div>
-          <div class="">
-
+            <h4 class="description__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit
+              maximus, molestie est a, tempor magna.</h4>
           </div>
         </div>
+        <div class="delicious-menu__catalog">
+          <nav class="catalog_food">
+            <p class="catalog_food-type">soupe</p>
+            <p class="catalog_food-type">pizza</p>
+            <p class="catalog_food-type">pasta</p>
+            <p class="catalog_food-type">desert</p>
+            <p class="catalog_food-type">wine</p>
+            <p class="catalog_food-type">beer</p>
+            <p class="catalog_food-type">drinks</p>
+          </nav>
+        </div>
+        <div class="delicious-menu__list">
+          <p class="list_food-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD
+            <span class="list_food-description">Integer ullamcorper neque eu purus euismod</span></p>
+          <p class="list_food-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD
+            <span class="list_food-description">Integer ullamcorper neque eu purus euismod</span></p>
+          <p class="list_food-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD
+            <span class="list_food-description">Integer ullamcorper neque eu purus euismod</span></p>
+          <p class="list_food-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD
+            <span class="list_food-description">Integer ullamcorper neque eu purus euismod</span></p>
+          <p class="list_food-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD
+            <span class="list_food-description">Integer ullamcorper neque eu purus euismod</span></p>
+          <p class="list_food-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD
+            <span class="list_food-description">Integer ullamcorper neque eu purus euismod</span></p>
+          <p class="list_food-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD
+            <span class="list_food-description">Integer ullamcorper neque eu purus euismod</span></p>
+          <p class="list_food-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD
+            <span class="list_food-description">Integer ullamcorper neque eu purus euismod</span></p>
+          <p class="list_food-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD
+            <span class="list_food-description">Integer ullamcorper neque eu purus euismod</span></p>
+          <p class="list_food-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD
+            <span class="list_food-description">Integer ullamcorper neque eu purus euismod</span></p>
+          <p class="list_food-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD
+            <span class="list_food-description">Integer ullamcorper neque eu purus euismod</span></p>
+          <p class="list_food-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD
+            <span class="list_food-description">Integer ullamcorper neque eu purus euismod</span></p>
+          <p class="list_food-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD
+            <span class="list_food-description">Integer ullamcorper neque eu purus euismod</span></p>
+          <p class="list_food-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD
+            <span class="list_food-description">Integer ullamcorper neque eu purus euismod</span></p>
+          <p class="list_food-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD
+            <span class="list_food-description">Integer ullamcorper neque eu purus euismod</span></p>
+          <p class="list_food-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD
+            <span class="list_food-description">Integer ullamcorper neque eu purus euismod</span></p>
+          <p class="list_food-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD
+            <span class="list_food-description">Integer ullamcorper neque eu purus euismod</span></p>
+          <p class="list_food-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD
+            <span class="list_food-description">Integer ullamcorper neque eu purus euismod</span></p>
+          <p class="list_food-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD
+            <span class="list_food-description">Integer ullamcorper neque eu purus euismod</span></p>
+          <p class="list_food-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD
+            <span class="list_food-description">Integer ullamcorper neque eu purus euismod</span></p>
+          <p class="list_food-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD
+            <span class="list_food-description">Integer ullamcorper neque eu purus euismod</span></p>
+        </div>
+      </section>
+      <section class="events">
+        <h4 class="top-plate">private events</h4>
+        <ul class="events__cards">
+          <li class="events__card events__cards_left">
+            weddings
+          </li>
+          <li class="events__card events__cards_right">
+
+          </li>
+
+        </ul>
       </section>
     </main>
     <footer class="footer">
@@ -128,4 +208,5 @@
     </footer>
   </div>
 </body>
+
 </html>

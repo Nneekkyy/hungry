@@ -1,6 +1,6 @@
 .header {
 width: 1440px;
-height: 800px;
+min-height: 800px;
 background-image: url(../images/headerbg.png);
 background-size: contain;
 position: relative;
