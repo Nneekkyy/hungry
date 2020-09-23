@@ -105,7 +105,7 @@ justify-content: space-around;
   height: 58px;
   border-radius: 50%;
   border: 1px solid rgba(255, 255, 255, 0.2);
-  margin-bottom: 20px;
+  margin-bottom: 18px;
 }
 /*необходимо переписать значение nth-child при добавлении иконки соцсети*/
 .header__social-image:nth-child(3n+1) {

@@ -57,3 +57,18 @@ select:required:invalid {
   margin-top: 10px;
   margin-bottom: 0px;
 }
+.book-a-table__text {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 100px;
+  text-align: center;
+  color: rgba(51, 51, 51, 0.8);
+  width: 1440px;
+  height: 100px;
+  margin: 0 auto;
+  }
+.book-a-table_image {
+  padding-bottom: 0px;
+}
