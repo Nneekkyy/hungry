@@ -20,20 +20,24 @@
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
-  line-height: 12px;
+  line-height: 55px;
   text-transform: uppercase;
   color: #FFFFFF;
   transform: rotate(90deg);
   background-color: black;
   text-indent: 20px;
+
 }
 .events__cards_left {
   background-position: 0px 50px;
-  background-image: url(../images/weddings2.png);
+  background-image: url(../images/weddings.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
 .events__cards_right {
+  background-position: 0px 50px;
   background-image: url(../images/corp.png);
-  background-size: contain;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transform: rotate(-90deg);
 }

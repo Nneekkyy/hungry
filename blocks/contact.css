@@ -1,0 +1,24 @@
+.contact {
+  margin-top: 40px;
+
+}
+.contact__fields {
+  width: 1280px;
+  margin: 0 auto;
+}
+.contact__field {
+  appearance: none;
+  padding: 0;
+  width: 420px;
+  height: 60px;
+  border-radius: 5px;
+  border: none;
+  background: #E5E5E5;
+}
+.field_message {
+  width: 1280px;
+  height: 120px;
+  border-radius: 5px;
+  border: none;
+  background: #E5E5E5;
+}
