@@ -20,7 +20,12 @@ justify-content: space-around;
   font-size: 12px;
   line-height: 18px;
   color: #FFFFFF;
+  text-transform: uppercase;
   text-decoration: none;
+
+}
+.header__menu_link:hover {
+  text-shadow: 10px 10px 15px white;
 }
 .header__opening-hours {
   font-family: Open Sans;
@@ -80,6 +85,11 @@ justify-content: space-around;
   color: #FFFFFF;
   border-radius: 5px;
 }
+.header__button:hover {
+  background-color: cornflowerblue;
+  cursor: pointer;
+  box-shadow: 0 0 10px cyan;
+}
 .header__button_left {
   background-color: #E8C300;
 }
@@ -100,6 +110,7 @@ justify-content: space-around;
   right: 79px;
   top: 340px;
 }
+
 .header__social-image {
   width: 60px;
   height: 58px;
@@ -107,7 +118,12 @@ justify-content: space-around;
   border: 1px solid rgba(255, 255, 255, 0.2);
   margin-bottom: 18px;
 }
-/*необходимо переписать значение nth-child при добавлении иконки соцсети*/
+.header__social-image:hover {
+  background-color: cornflowerblue;
+  cursor: pointer;
+  box-shadow: 0 0 10px white;
+}
+
 .header__social-image:nth-child(3n+1) {
   background-image: url(../images/fb.svg);
   background-repeat: no-repeat;

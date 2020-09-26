@@ -4,6 +4,7 @@
   min-height: 675px;
   background-repeat: no-repeat;
 }
+
 .events__cards {
   margin: 0px 205px 100px 205px;
   padding-top: 100px;
@@ -11,33 +12,53 @@
   justify-content: space-between;
   padding-left: 0px;
 }
-.events__card {
-  position: relative;
+
+.events__card_left_image {
   width: 475px;
   height: 475px;
-  list-style-type: none;
+  background-image: url(../images/weddings.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: -100px 0px;
+}
+
+.events__card_left_text {
+  width: 80px;
+  height: 475px;
   font-family: "Helvetica", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
-  line-height: 55px;
+  line-height: 80px;
   text-transform: uppercase;
   color: #FFFFFF;
-  transform: rotate(90deg);
-  background-color: black;
   text-indent: 20px;
+  writing-mode: vertical-rl;
+  background-color: black;
+  margin-left: 395px;
+}
 
+.events__card_right_text {
+  width: 80px;
+  height: 475px;
+  font-family: "Helvetica", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 80px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-indent: 20px;
+  writing-mode: vertical-lr;
+  background-color: black;
+  transform: rotate(180deg);
 }
-.events__cards_left {
-  background-position: 0px 50px;
-  background-image: url(../images/weddings.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-.events__cards_right {
-  background-position: 0px 50px;
+
+.events__card_right_image {
+  width: 475px;
+  height: 475px;
   background-image: url(../images/corp.png);
   background-size: cover;
   background-repeat: no-repeat;
-  transform: rotate(-90deg);
+  background-position: -100px 0px;
 }

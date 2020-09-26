@@ -15,19 +15,19 @@
     <header class="header">
       <p class="header__opening-hours">Mon - Fri: 8PM - 10PM, Sat - Sun: 8PM - 3AM</p>
       <nav class="header__menu">
-        <a class="header__menu_link" href="#" target="_blank">HOME</a>
-        <a class="header__menu_link" href="#" target="_blank">ABOUT</a>
-        <a class="header__menu_link" href="#" target="_blank">TEAM</a>
-        <a class="header__menu_link" href="#" target="_blank">BOOKING</a>
+        <a class="header__menu_link" href="#" target="_blank">home</a>
+        <a class="header__menu_link" href="#" target="_blank">about</a>
+        <a class="header__menu_link" href="#" target="_blank">team</a>
+        <a class="header__menu_link" href="#" target="_blank">booking</a>
         <img class="header__img rotation" src="./images/steeringw.svg" alt="Иконка штурвала в меню">
-        <a class="header__menu_link" href="#" target="_blank">MENU</a>
-        <a class="header__menu_link" href="#" target="_blank">GALERIE</a>
-        <a class="header__menu_link" href="#" target="_blank">EVENTS</a>
-        <a class="header__menu_link" href="#" target="_blank">CONTACT</a>
+        <a class="header__menu_link" href="#" target="_blank">menu</a>
+        <a class="header__menu_link" href="#" target="_blank">galerie</a>
+        <a class="header__menu_link" href="#" target="_blank">events</a>
+        <a class="header__menu_link" href="#" target="_blank">contact</a>
       </nav>
       <h2 class="header__subtitle">RESTAURANT</h2>
       <h1 class="header__title">HUNGRY PEOPLE</h1>
-      <div class="rectangle rectangle_header"></div>
+      <div class="rectangle"></div>
       <form class="header__buttons" action="index.html" method="post">
         <button class="header__button header__button_left" type="button" name="button">BOOK TABLE</button>
         <button class="header__button header__button_right" type="button" name="button">EXPLORE</button>
@@ -43,7 +43,7 @@
         <div class="description">
           <div class="description__text">
             <h3 class="description__title">about us</h3>
-            <div class="rectangle rectangle_about"></div>
+            <div class="rectangle rectangle_margin-top"></div>
             <h4 class="description__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit
               maximus, molestie est a, tempor magna.</h4>
             <p class="description__paragraph">Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere.
@@ -51,8 +51,6 @@
               sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper
               laoreet.</p>
           </div>
-          <!--Здесь и везде, где картинка имеет тень, она меньше и выглядит не как по брифу,
-              из-зи того, что тень входит в размеры 475x475 - надо ли обрезать и делать тень через box-shadow?--->
           <img class="description__image" src="./images/about.png" alt="Тлеющие угли на фоне барной стойки">
         </div>
       </section>
@@ -62,7 +60,7 @@
           <img class="description__image master-chief__image" src="./images/mc.png" alt="Кондитер">
           <div class="description__text">
             <h3 class="description__title title_color_white">master chef</h3>
-            <div class="rectangle rectangle_description"></div>
+            <div class="rectangle"></div>
             <h4 class="description__subtitle subtitle_color_white">Lorem ipsum dolor sit amet, consectetur adipiscing
               elit. Duis at velit maximus, molestie est a, tempor magna.</h4>
             <p class="description__paragraph paragraph_color_white">Integer ullamcorper neque eu purus euismod, ac
@@ -76,12 +74,12 @@
         <div class="description">
           <div class="description__text">
             <h3 class="description__title book-a-table__title">book a table</h3>
-            <div class="rectangle rectangle_description"></div>
+            <div class="rectangle"></div>
             <div class="book-a-table__fields">
               <input class="book-a-table__field" type="text" name="name" placeholder="Name" required>
               <input class="book-a-table__field" type="text" name="email" placeholder="Email" required>
               <input class="book-a-table__field" type="text" name="phone" placeholder="Phone" required>
-              <select required class="book-a-table__field field_select">
+              <select required class="book-a-table__field book-a-table__field_select">
                 <option value="" style="display:none">People</option>
                 <option value="1" style="color:black">1 person</option>
                 <option value="2" style="color:black">2 persons</option>
@@ -89,7 +87,7 @@
                 <option value="4" style="color:black">4 persons</option>
               </select>
               <input class="book-a-table__field" type="text" name="date" placeholder="Date (mm/dd)" required>
-              <select required class="book-a-table__field field_select">
+              <select required class="book-a-table__field book-a-table__field_select">
                 <option class="select" option value="" disabled selected>Time</option>
                 <option value="1" style="color:black">8 PM</option>
                 <option value="2" style="color:black">9 PM</option>
@@ -104,7 +102,7 @@
             </div>
 
           </div>
-          <img class="description__image book-a-table_image" src="./images/btclock.png" alt="Несколько часов">
+          <img class="description__image book-a-table__image" src="./images/btclock.png" alt="Несколько часов">
         </div>
         <div class="book-a-table__text">Mon - Fri: 8PM - 10PM, Sat - Sun: 8PM - 3AM, Phone: +40 729 131 637/+40 726 458
           782</div>
@@ -115,7 +113,7 @@
           <img class="description__image pancakes__image" src="./images/pancakes.png" alt="Еда на тарелке">
           <div class="description__text">
             <h3 class="description__title title_color_white">chocolate pancakes</h3>
-            <div class="rectangle rectangle_pancakes"></div>
+            <div class="rectangle rectangle_margin-top"></div>
             <h4 class="description__subtitle subtitle_color_white">Lorem ipsum dolor sit amet, consectetur adipiscing
               elit. Duis at velit maximus, molestie est a, tempor magna.</h4>
             <p class="description__paragraph paragraph_color_white">Integer ullamcorper neque eu purus euismod, ac
@@ -129,79 +127,79 @@
         <div class="description">
           <div class="description__text">
             <h3 class="description__title">delicious menu</h3>
-            <div class="rectangle rectangle_pancakes"></div>
+            <div class="rectangle rectangle_margin-top"></div>
             <h4 class="description__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit
               maximus, molestie est a, tempor magna.</h4>
           </div>
         </div>
-        <div class="delicious-menu__catalog">
-          <nav class="catalog_food">
-            <p class="catalog_food-type">soupe</p>
-            <p class="catalog_food-type">pizza</p>
-            <p class="catalog_food-type">pasta</p>
-            <p class="catalog_food-type">desert</p>
-            <p class="catalog_food-type">wine</p>
-            <p class="catalog_food-type">beer</p>
-            <p class="catalog_food-type">drinks</p>
+        <div class="delicious-menu__delicious-menu__catalog">
+          <nav class="delicious-menu__catalog_food">
+            <p class="delicious-menu__catalog_food-type">soupe</p>
+            <p class="delicious-menu__catalog_food-type">pizza</p>
+            <p class="delicious-menu__catalog_food-type">pasta</p>
+            <p class="delicious-menu__catalog_food-type">desert</p>
+            <p class="delicious-menu__catalog_food-type">wine</p>
+            <p class="delicious-menu__catalog_food-type">beer</p>
+            <p class="delicious-menu__catalog_food-type">drinks</p>
           </nav>
         </div>
         <div class="delicious-menu__list">
-          <p class="list_food-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD
-            <span class="list_food-description">Integer ullamcorper neque eu purus euismod</span></p>
-          <p class="list_food-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD
-            <span class="list_food-description">Integer ullamcorper neque eu purus euismod</span></p>
-          <p class="list_food-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD
-            <span class="list_food-description">Integer ullamcorper neque eu purus euismod</span></p>
-          <p class="list_food-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD
-            <span class="list_food-description">Integer ullamcorper neque eu purus euismod</span></p>
-          <p class="list_food-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD
-            <span class="list_food-description">Integer ullamcorper neque eu purus euismod</span></p>
-          <p class="list_food-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD
-            <span class="list_food-description">Integer ullamcorper neque eu purus euismod</span></p>
-          <p class="list_food-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD
-            <span class="list_food-description">Integer ullamcorper neque eu purus euismod</span></p>
-          <p class="list_food-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD
-            <span class="list_food-description">Integer ullamcorper neque eu purus euismod</span></p>
-          <p class="list_food-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD
-            <span class="list_food-description">Integer ullamcorper neque eu purus euismod</span></p>
-          <p class="list_food-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD
-            <span class="list_food-description">Integer ullamcorper neque eu purus euismod</span></p>
-          <p class="list_food-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD
-            <span class="list_food-description">Integer ullamcorper neque eu purus euismod</span></p>
-          <p class="list_food-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD
-            <span class="list_food-description">Integer ullamcorper neque eu purus euismod</span></p>
-          <p class="list_food-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD
-            <span class="list_food-description">Integer ullamcorper neque eu purus euismod</span></p>
-          <p class="list_food-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD
-            <span class="list_food-description">Integer ullamcorper neque eu purus euismod</span></p>
-          <p class="list_food-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD
-            <span class="list_food-description">Integer ullamcorper neque eu purus euismod</span></p>
-          <p class="list_food-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD
-            <span class="list_food-description">Integer ullamcorper neque eu purus euismod</span></p>
-          <p class="list_food-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD
-            <span class="list_food-description">Integer ullamcorper neque eu purus euismod</span></p>
-          <p class="list_food-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD
-            <span class="list_food-description">Integer ullamcorper neque eu purus euismod</span></p>
-          <p class="list_food-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD
-            <span class="list_food-description">Integer ullamcorper neque eu purus euismod</span></p>
-          <p class="list_food-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD
-            <span class="list_food-description">Integer ullamcorper neque eu purus euismod</span></p>
-          <p class="list_food-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD
-            <span class="list_food-description">Integer ullamcorper neque eu purus euismod</span></p>
+          <p class="delicious-menu__list_food-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD
+            <span class="delicious-menu__list_food-description">Integer ullamcorper neque eu purus euismod</span></p>
+          <p class="delicious-menu__list_food-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD
+            <span class="delicious-menu__list_food-description">Integer ullamcorper neque eu purus euismod</span></p>
+          <p class="delicious-menu__list_food-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD
+            <span class="delicious-menu__list_food-description">Integer ullamcorper neque eu purus euismod</span></p>
+          <p class="delicious-menu__list_food-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD
+            <span class="delicious-menu__list_food-description">Integer ullamcorper neque eu purus euismod</span></p>
+          <p class="delicious-menu__list_food-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD
+            <span class="delicious-menu__list_food-description">Integer ullamcorper neque eu purus euismod</span></p>
+          <p class="delicious-menu__list_food-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD
+            <span class="delicious-menu__list_food-description">Integer ullamcorper neque eu purus euismod</span></p>
+          <p class="delicious-menu__list_food-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD
+            <span class="delicious-menu__list_food-description">Integer ullamcorper neque eu purus euismod</span></p>
+          <p class="delicious-menu__list_food-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD
+            <span class="delicious-menu__list_food-description">Integer ullamcorper neque eu purus euismod</span></p>
+          <p class="delicious-menu__list_food-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD
+            <span class="delicious-menu__list_food-description">Integer ullamcorper neque eu purus euismod</span></p>
+          <p class="delicious-menu__list_food-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD
+            <span class="delicious-menu__list_food-description">Integer ullamcorper neque eu purus euismod</span></p>
+          <p class="delicious-menu__list_food-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD
+            <span class="delicious-menu__list_food-description">Integer ullamcorper neque eu purus euismod</span></p>
+          <p class="delicious-menu__list_food-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD
+            <span class="delicious-menu__list_food-description">Integer ullamcorper neque eu purus euismod</span></p>
+          <p class="delicious-menu__list_food-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD
+            <span class="delicious-menu__list_food-description">Integer ullamcorper neque eu purus euismod</span></p>
+          <p class="delicious-menu__list_food-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD
+            <span class="delicious-menu__list_food-description">Integer ullamcorper neque eu purus euismod</span></p>
+          <p class="delicious-menu__list_food-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD
+            <span class="delicious-menu__list_food-description">Integer ullamcorper neque eu purus euismod</span></p>
+          <p class="delicious-menu__list_food-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD
+            <span class="delicious-menu__list_food-description">Integer ullamcorper neque eu purus euismod</span></p>
+          <p class="delicious-menu__list_food-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD
+            <span class="delicious-menu__list_food-description">Integer ullamcorper neque eu purus euismod</span></p>
+          <p class="delicious-menu__list_food-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD
+            <span class="delicious-menu__list_food-description">Integer ullamcorper neque eu purus euismod</span></p>
+          <p class="delicious-menu__list_food-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD
+            <span class="delicious-menu__list_food-description">Integer ullamcorper neque eu purus euismod</span></p>
+          <p class="delicious-menu__list_food-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD
+            <span class="delicious-menu__list_food-description">Integer ullamcorper neque eu purus euismod</span></p>
+          <p class="delicious-menu__list_food-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD
+            <span class="delicious-menu__list_food-description">Integer ullamcorper neque eu purus euismod</span></p>
         </div>
       </section>
       <section class="events">
         <h4 class="top-plate">private events</h4>
         <ul class="events__cards">
-          <li class="events__card events__cards_left">weddings</li>
-          <li class="events__card events__cards_right">corporate pzrties</li>
+          <li class="events__card events__card_left_image"><span class="events__card_left_text">weddings</span></li>
+          <li class="events__card events__card_right_image"><span class="events__card_right_text">corporate pzrties</span></li>
         </ul>
       </section>
       <section class="contact">
         <div class="description">
           <div class="description__text">
             <h3 class="description__title">contact</h3>
-            <div class="rectangle rectangle_pancakes"></div>
+            <div class="rectangle rectangle_margin-top"></div>
             <h4 class="description__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit
               maximus, molestie est a, tempor magna.</h4>
           </div>
@@ -211,7 +209,11 @@
             <input class="contact__field" type="text" name="email" placeholder="Email" required>
             <input class="contact__field" type="text" name="phone" placeholder="Phone" required>
             <input class="contact__field field_message" type="text" name="message" placeholder="Message" required>
-            <div class="contact__adress">   5th London Boulevard, U.K.               +40 729 131 637/+40 726 458 782          office@mindblister.com</div>
+            <div class="contact__adress">
+              <img class="contact__adress_image" src="./images/location.png" alt="">  5th London Boulevard, U.K.
+              <img class="contact__adress_image" src="./images/phone.png" alt="">  +40 729 131 637/+40 726 458 782
+              <img class="contact__adress_image" src="./images/email.png" alt="">     office@mindblister.com
+            </div>
             <input class="book-a-table__button contact_button" type="submit" value="send message">
           </div>
       </section>

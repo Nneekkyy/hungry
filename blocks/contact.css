@@ -1,11 +1,15 @@
 .contact {
   margin-top: 40px;
-
+  margin-bottom: 115px;
 }
+
 .contact__fields {
   width: 1280px;
   margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
 }
+
 .contact__field {
   appearance: none;
   padding: 0;
@@ -14,12 +18,15 @@
   border-radius: 5px;
   border: none;
   background: #E5E5E5;
-  margin-right: 6px;
+  margin-right: 10px;
   margin-bottom: 10px;
+  text-indent: 20px;
 }
+
 .contact__field:nth-child(1n+3) {
   margin-right: 0px;
 }
+
 .field_message {
   width: 1280px;
   height: 120px;
@@ -27,13 +34,28 @@
   border: none;
   background: #E5E5E5;
 }
+
 .contact_button {
-  width: 640;
+  width: 640px;
   margin-top: 0px;
 }
+
 .contact__adress {
-  box-sizing: content-box;
-  border-width: 10px;
-  width: 100px;
-  margin-right: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  width: 640px;
+  font-family: Font Awesome;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 14px;
+  color: rgba(51, 51, 51, 0.5);
+  padding-right: 20px;
+}
+
+.contact__adress_image {
+  width: 12px;
+  height: 12px;
 }

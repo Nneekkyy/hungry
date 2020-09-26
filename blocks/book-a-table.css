@@ -29,7 +29,7 @@
 .book-a-table__field:nth-child(1n+5) {
   margin-bottom: 0px;
 }
-.field_select {
+.book-a-table__field_select {
   width: 277px;
   padding-left: 15px;
   background-image: url(../images/arrow.svg);
@@ -57,6 +57,11 @@ select:required:invalid {
   margin-top: 10px;
   margin-bottom: 0px;
 }
+.book-a-table__button:hover {
+  background-color: brown;
+  cursor: pointer;
+  box-shadow: 0 0 10px black;
+}
 .book-a-table__text {
   font-family: Open Sans;
   font-style: normal;
@@ -69,6 +74,6 @@ select:required:invalid {
   height: 100px;
   margin: 0 auto;
   }
-.book-a-table_image {
+.book-a-table__image {
   padding-bottom: 0px;
 }

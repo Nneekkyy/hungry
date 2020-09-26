@@ -11,6 +11,7 @@
   line-height: 100px;
   color: rgba(255, 255, 255, 0.5);
   text-align: center;
+  margin-top: 0px;
 }
 .footer__text_bold {
   font-weight: bold;
