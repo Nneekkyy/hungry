@@ -4,9 +4,10 @@
 
 Данный сайт является дополнительной работой, выполняемой в ходе обучения в Яндекс.Практикуме, по созданию сайта с применением технологий html и css.
 
+#### Ссылка на Github Pages
+https://barrrsss.github.io/hungry/
+
 ### Функционал
 
 Для создания сайта использовались функции animation, flex, transform, transition.
 
-#### Ссылка на Github Pages
-https://barrrsss.github.io/hungry/
